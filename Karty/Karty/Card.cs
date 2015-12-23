@@ -15,5 +15,12 @@ namespace Karty
         {
             get { return Value.ToString() + " of " + Suit.ToString(); }
         }
+
+        public Card(Suits suit, Values value)
+        {
+            Suit = suit;
+            Value = value;
+        }
+
     }
 }
