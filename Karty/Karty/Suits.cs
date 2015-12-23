@@ -8,5 +8,9 @@ namespace Karty
 {
     enum Suits
     {
+        Karo,
+        Pik,
+        Trefl,
+        Kier
     }
 }
