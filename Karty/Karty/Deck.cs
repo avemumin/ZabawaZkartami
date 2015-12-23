@@ -13,8 +13,8 @@ namespace Karty
         public Deck()
         {
             cards = new List<Card>();
-            for (int suit = 0; suit < 4; suit++)
-                for (int value = 0; value < 14; value++)
+            for (int suit = 0; suit <= 3; suit++)
+                for (int value = 1; value <= 13; value++)
                     cards.Add(new Card((Suits)suit, (Values)value));
 
         }

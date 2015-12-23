@@ -83,6 +83,7 @@
             this.moveToDeck2.TabIndex = 4;
             this.moveToDeck2.Text = ">>";
             this.moveToDeck2.UseVisualStyleBackColor = true;
+            this.moveToDeck2.Click += new System.EventHandler(this.moveToDeck2_Click);
             // 
             // moveToDeck1
             // 
@@ -93,6 +94,7 @@
             this.moveToDeck1.TabIndex = 5;
             this.moveToDeck1.Text = "<<";
             this.moveToDeck1.UseVisualStyleBackColor = true;
+            this.moveToDeck1.Click += new System.EventHandler(this.moveToDeck1_Click);
             // 
             // reset1
             // 
@@ -103,6 +105,7 @@
             this.reset1.TabIndex = 6;
             this.reset1.Text = "Przywróć zesaw 1";
             this.reset1.UseVisualStyleBackColor = true;
+            this.reset1.Click += new System.EventHandler(this.reset1_Click);
             // 
             // reset2
             // 
@@ -113,6 +116,7 @@
             this.reset2.TabIndex = 7;
             this.reset2.Text = "Przywróć zestaw 2";
             this.reset2.UseVisualStyleBackColor = true;
+            this.reset2.Click += new System.EventHandler(this.reset2_Click);
             // 
             // shuffle1
             // 
@@ -123,6 +127,7 @@
             this.shuffle1.TabIndex = 8;
             this.shuffle1.Text = "Wymieszaj zestaw 1";
             this.shuffle1.UseVisualStyleBackColor = true;
+            this.shuffle1.Click += new System.EventHandler(this.shuffle1_Click);
             // 
             // shuffle2
             // 
@@ -133,6 +138,7 @@
             this.shuffle2.TabIndex = 9;
             this.shuffle2.Text = "Wymieszaj zestaw 2";
             this.shuffle2.UseVisualStyleBackColor = true;
+            this.shuffle2.Click += new System.EventHandler(this.shuffle2_Click);
             // 
             // Form1
             // 
